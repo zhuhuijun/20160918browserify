@@ -1,0 +1,26 @@
+{
+  "name": "browserify",
+  "version": "1.0.0",
+  "description": "browserify",
+  "main": "index.js",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuhuijun/20160918browserify.git"
+  },
+  "keywords": [
+    "browserify"
+  ],
+  "author": "zhuhj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhuhuijun/20160918browserify/issues"
+  },
+  "homepage": "https://github.com/zhuhuijun/20160918browserify"
+}
