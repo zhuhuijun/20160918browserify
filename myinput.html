@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myinput</title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td,label { margin:0; padding:0;}
+        #center1 {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        #mapDiv {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 90%;
+            overflow: hidden;
+        }
+
+        #addmarkers {
+            width: 100%;
+            height: 30px;
+            background-color: #69C;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #addmarkers .utilnav {
+            height: 28px;
+            border: 1px solid red;
+        }
+
+        #addmarkers .utilnav input {
+            height:20px;
+            width: 80px;
+            margin:4px 5px;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+<div id="center1">
+    <div id="addmarkers">
+        <div class="utilnav">
+            <input type="button" value="兵力部署"/>
+            <input type="button" value="清除图层"/>
+        </div>
+    </div>
+    <div id="mapDiv"></div>
+</div>
+</body>
+</html>
